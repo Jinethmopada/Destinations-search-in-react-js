@@ -1,0 +1,34 @@
+.list-container {
+  width: 100%;
+  cursor: pointer;
+}
+.dest-img {
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .list-container {
+    width: 40%;
+  }
+  .dest-img {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list-container {
+    width: 30%;
+  }
+  .dest-img {
+    width: 90%;
+  }
+}
+
+.dest-name {
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .dest-name {
+    font-size: 18px;
+  }
+}
